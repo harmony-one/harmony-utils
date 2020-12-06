@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "@harmony-js/core": "latest",
-    "@harmony-utils/wrappers": "0.0.1"
+    "@harmony-utils/wrappers": "^0.0.1"
   },
   "devDependencies": {
     "tsdx": "latest"
