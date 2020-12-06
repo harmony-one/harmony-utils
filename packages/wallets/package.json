@@ -1,0 +1,39 @@
+{
+  "name": "@harmony-utils/wallets",
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "0.0.1",
+  "description": "Custom wallet implementations for OneWallet and MathWallet",
+  "keywords": [
+    "harmony",
+    "dapp",
+    "utils",
+    "wrappers",
+    "wallets"
+  ],
+  "author": "Harmony <hello@harmony.one>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/harmony-one/harmony-utils.git"
+  },
+  "main": "dist/index.js",
+  "module": "dist/wallets.esm.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "lint": "tsdx lint src"
+  },
+  "dependencies": {
+    "@harmony-js/core": "latest",
+    "@harmony-utils/wrappers": "0.0.1"
+  },
+  "devDependencies": {
+    "tsdx": "latest"
+  },
+  "license": "GPL-3.0-or-later"
+}
